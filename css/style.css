@@ -1,0 +1,140 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+	height: 800px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: monospace;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+.bangladesh{
+	width: 100%;
+	height: 80px;
+	background: #38352f;
+	position: fixed;
+	z-index: 1;
+	color: #ffeb3b;
+}
+h1{
+	margin: 29px -169px;
+	font-size: 50px;
+	display: inline-flex;
+}
+.bangladesh img{
+	
+	width: 141px;
+    margin: -36px 133px;
+}
+.green{
+	width: 700px;
+	height: 400px;
+	top: 18%;
+	left: 25%;
+	background: green;
+	position: relative;
+}
+.red{
+	height: 260px;
+	width: 260px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 19%;
+	left: 29%;
+}
+.fb{
+	position: fixed;
+	width: 150px;
+	top: 30%;
+	right: -100px;
+	transition: 1s;
+}
+.fb:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.wh{
+	position: fixed;
+    width: 143px;
+    top: 37%;
+    right: -88px;
+    transition: 1s;
+}
+.wh:hover{
+	right: -10px;
+	cursor: pointer;
+}
+.tw{
+    position: fixed;
+    width: 167px;
+    top: 48%;
+    right: -118px;
+    transition: 1s;
+}
+.tw:hover{
+	right: -10px;
+	cursor: pointer;
+}
+.in{
+    position: fixed;
+    width: 163px;
+    top: 58%;
+    right: -114px;
+    transition: 1s;
+}
+.in:hover{
+	right: -10px;
+	cursor: pointer;
+}
+.icon{
+	margin: 212px 0px 0px 20px;
+	text-align: center;
+}
+.icon li{
+	list-style: none;
+	display: inline-block;
+}
+.icon li a{
+	display: block;
+	margin: 0px 15px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background: #000000e0;
+	font-size: 38px;
+	border-radius: 50%;
+	border: 2px solid #000;
+	transition: 1s;
+}
+.ifb{
+	color: #fff;
+}
+.iwt{
+	color: #fff;
+}
+.itw{
+	color: #fff;
+}
+.iyo{
+	color: #fff;
+}
+.ili{
+	color: #fff;
+}
+.ipi{
+	color: #fff;
+}
+.icon li a:hover{
+	background: #c5c3c3;
+	color: #000000e0;
+	border: 2px solid #000;
+	transition: 1s;
+}
